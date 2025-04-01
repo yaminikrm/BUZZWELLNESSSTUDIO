@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="m-3">
+        <form id="myForm">
+            <div class="mt3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+                <p id="msgElement" class="text-mesage"></p>
+            </div>
+
+            <div class="mt3">
+                <label for="name">Mobile Number</label>
+                <input type="text" class="form-control" id="mobilenumber">
+                <p id="mobilenumErrElement" class="text-mesage"></p>
+            </div>
+
+            <div class="mt3">
+                <label for="name">Email</label>
+                <input type="text" class="form-control" id="email">
+                <p id="mailErrElement" class="text-mesage"></p>
+            </div>
+            <div class="mt-3">
+                <label for="status">Working Status</label>
+                <select id="status" class="form-control">
+                    <option value="Active">Active</option>
+                    <option value="Inactive" selected>Inactive</option>
+                </select>
+            </div>
+
+            <div>
+                <h1 class="heaidng">Gender</h1>
+                <input type="radio" value="male" id="genderMale" name="gender">
+                <label for="genderMale">Male</label>
+                <input type="radio" value="female" id="genderFemale" name="gender">
+                <label for="genderMale">Female</label>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
